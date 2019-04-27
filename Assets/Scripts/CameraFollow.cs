@@ -49,7 +49,7 @@ public class CameraFollow : MonoBehaviour
         {
             ViewportPoints[0] = ActivePlayers.Max(x => Mathf.Abs(Camera.main.WorldToViewportPoint(x.transform.position).x));
             ViewportPoints[1] = ActivePlayers.Max(x => Mathf.Abs(Camera.main.WorldToViewportPoint(x.transform.position).y));
-            if (Mathf.Max(ViewportPoints) >= 0.9f)
+            if (Mathf.Max(ViewportPoints) >= 0.85f)
             {
                 intentedCameraSize += 0.05f;
             }
@@ -58,10 +58,9 @@ public class CameraFollow : MonoBehaviour
                 intentedCameraSize = (intentedCameraSize <= 5 ? intentedCameraSize = 5 : intentedCameraSize - 0.1f);
                 
             }
-
+            Debug.Log(ViewportPoints[0] + " " + ViewportPoints[1]);
             Camera.main.orthographicSize = Mathf.SmoothDamp(Camera.main.orthographicSize, intentedCameraSize, ref camspeed, 0.9f);
 
-            Debug.Log(ViewportPoints[0] + " " + ViewportPoints[1]);
         }
 
     }
