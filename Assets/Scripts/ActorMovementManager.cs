@@ -68,6 +68,8 @@ public class ActorMovementManager : MonoBehaviour
 
     internal UnityEvent specEvent;
 
+    internal UnityEvent specUpEvent;
+
     internal float horizontal;
     internal float vertical;
 
@@ -77,7 +79,7 @@ public class ActorMovementManager : MonoBehaviour
     {
         jumpEvent = new UnityEvent();
         specEvent = new UnityEvent();
-
+        specUpEvent = new UnityEvent();
     }
 
     // Start is called before the first frame update
@@ -95,6 +97,10 @@ public class ActorMovementManager : MonoBehaviour
         if (Input.GetButtonDown(strings.spec))
         {
             specEvent.Invoke();
+        }
+        else if (Input.GetButtonUp(strings.spec))
+        {
+            specUpEvent.Invoke();
         }
         if (gc.grounded && Input.GetButtonDown(strings.jump))
         {

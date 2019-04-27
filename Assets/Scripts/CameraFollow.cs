@@ -6,6 +6,9 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
 
+    [SerializeField] float upperBound = 0.85f;
+    [SerializeField] float lowerBound = 0.75f;
+
     List<GameObject> ActivePlayers;
 
     Vector3 speed = Vector3.zero;
@@ -49,16 +52,16 @@ public class CameraFollow : MonoBehaviour
         {
             ViewportPoints[0] = ActivePlayers.Max(x => Mathf.Abs(Camera.main.WorldToViewportPoint(x.transform.position).x));
             ViewportPoints[1] = ActivePlayers.Max(x => Mathf.Abs(Camera.main.WorldToViewportPoint(x.transform.position).y));
-            if (Mathf.Max(ViewportPoints) >= 0.85f)
+            if (Mathf.Max(ViewportPoints) >= upperBound)
             {
                 intentedCameraSize += 0.05f;
             }
-            else if (Mathf.Max(ViewportPoints) <= 0.8f)
+            else if (Mathf.Max(ViewportPoints) <= lowerBound)
             {
                 intentedCameraSize = (intentedCameraSize <= 5 ? intentedCameraSize = 5 : intentedCameraSize - 0.1f);
                 
             }
-            Debug.Log(ViewportPoints[0] + " " + ViewportPoints[1]);
+            //Debug.Log(ViewportPoints[0] + " " + ViewportPoints[1]);
             Camera.main.orthographicSize = Mathf.SmoothDamp(Camera.main.orthographicSize, intentedCameraSize, ref camspeed, 0.9f);
 
         }

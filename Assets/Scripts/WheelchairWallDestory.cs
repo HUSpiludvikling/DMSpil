@@ -17,14 +17,22 @@ public class WheelchairWallDestory : MonoBehaviour
         
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
+        
         Debug.Log("CollisionEnter");
         if (col.gameObject.CompareTag("Wheelie"))
         {
-            Debug.Log("CollisionEnter1");
-            gameObject.GetComponent<BoxCollider2D>().enabled = false;
-            //anim.SetBool("DestoryWall", true);
+            if(col.transform.parent.GetComponent<WheelieSpec>().turboMode)
+            {
+                Debug.Log(col.transform.parent.GetComponent<Rigidbody2D>().velocity.magnitude);
+                Debug.Log("CollisionEnter1");
+
+                gameObject.GetComponent<BoxCollider2D>().enabled = false;
+                //anim.SetBool("DestoryWall", true);
+
+            }
+
         }
     }
 }

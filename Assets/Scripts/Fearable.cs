@@ -51,13 +51,10 @@ public class Fearable : MonoBehaviour
     {
         float speedStore = AMM.SpeedMod;
         AMM.SpeedMod /= 2f;
-
-        while(Vector2.Distance(coll.transform.position, transform.position) < minimumDistance)
+        while (coll != null && Vector2.Distance(coll.transform.position, transform.position) < minimumDistance)
         {
 
-            
-
-            if(stamina == 0)
+            if (stamina == 0)
             {
                 AMM.SpeedMod = 0f;
             }
@@ -70,6 +67,10 @@ public class Fearable : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
         
+
+
+
+
 
         Debug.Log("It's cool again!");
         AMM.SpeedMod = speedStore;

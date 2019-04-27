@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Kicker : MonoBehaviour
 {
+    [SerializeField] float damage = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +16,10 @@ public class Kicker : MonoBehaviour
         RaycastHit2D[] inFront = Physics2D.RaycastAll(transform.parent.position, transform.position, 2f);
         foreach (var item in inFront)
         {
-            Debug.Log(item.transform.name);
+            if(item.transform.CompareTag("Enemy"))
+            {
+                item.transform.GetComponent<Health>().TakeDamage(damage);
+            }
         }
     }
 
