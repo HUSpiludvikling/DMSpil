@@ -59,10 +59,10 @@ public class ActorMovementManager : MonoBehaviour
 
     [SerializeField]
     [Range(0.7f, 10f)]
-    float JumpMod = 1.0f;
+    public float JumpMod = 1.0f;
 
 
-    private ActorStrings strings;
+    public ActorStrings strings;
 
     internal UnityEvent jumpEvent;
 
@@ -80,12 +80,13 @@ public class ActorMovementManager : MonoBehaviour
         jumpEvent = new UnityEvent();
         specEvent = new UnityEvent();
         specUpEvent = new UnityEvent();
+        strings = new ActorStrings(player);
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        strings = new ActorStrings(player);
+        
         rb2d = GetComponent<Rigidbody2D>();
         gc = GetComponentInChildren<GroundCheck>();
         
