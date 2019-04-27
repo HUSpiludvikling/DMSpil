@@ -61,6 +61,26 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Angstie
       objectReference: {fileID: 0}
+    - target: {fileID: 8234925672729498375, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
+        type: 3}
+      propertyPath: player
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234925672729498372, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.6511634
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234925672729498372, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.10679956
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234925672729498372, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.9056604
+      objectReference: {fileID: 0}
     - target: {fileID: 8234925672729498377, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -115,31 +135,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8234925672729498377, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8234925672729498372, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.6511634
-      objectReference: {fileID: 0}
-    - target: {fileID: 8234925672729498372, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.10679956
-      objectReference: {fileID: 0}
-    - target: {fileID: 8234925672729498372, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.9056604
-      objectReference: {fileID: 0}
-    - target: {fileID: 8234925672729498375, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
-        type: 3}
-      propertyPath: player
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd, type: 3}

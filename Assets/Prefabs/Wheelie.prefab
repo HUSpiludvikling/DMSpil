@@ -81,6 +81,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheelie
       objectReference: {fileID: 0}
+    - target: {fileID: 8234925672729498379, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wheelie
+      objectReference: {fileID: 0}
     - target: {fileID: 8234925672729498375, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
         type: 3}
       propertyPath: player
@@ -120,17 +125,17 @@ PrefabInstance:
     - target: {fileID: 8234925672729498377, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -7.4829783
       objectReference: {fileID: 0}
     - target: {fileID: 8234925672729498377, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -2.895918
       objectReference: {fileID: 0}
     - target: {fileID: 8234925672729498377, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.5845394
       objectReference: {fileID: 0}
     - target: {fileID: 8234925672729498377, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
         type: 3}

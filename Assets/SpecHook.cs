@@ -34,7 +34,7 @@ public class SpecHook : MonoBehaviour
     private bool RayCheck()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 2f);
-        Debug.Log(hit.transform);
+
         return hit.transform == null;
         
     }

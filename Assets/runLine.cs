@@ -17,6 +17,6 @@ public class runLine : MonoBehaviour
     void Update()
     {
         
-        lr.SetPositions(new[] { transform.position, location });
+        lr.SetPositions(new[] { transform.position, location + (Vector3.down * 1f) });
     }
 }

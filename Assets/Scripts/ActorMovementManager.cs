@@ -58,7 +58,7 @@ public class ActorMovementManager : MonoBehaviour
     float SpeedMod = 1.0f;
 
     [SerializeField]
-    [Range(0.7f, 5.0f)]
+    [Range(0.7f, 10f)]
     float JumpMod = 1.0f;
 
 
