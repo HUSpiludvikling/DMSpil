@@ -47,6 +47,7 @@ public class CameraFollow : MonoBehaviour
         middlePoint = averageVector() + offset;
 
         transform.position = Vector3.SmoothDamp(transform.position, middlePoint, ref speed, 0.5f);
+
         float[] ViewportPoints = new float[2]; 
         foreach (GameObject item in ActivePlayers)
         {
