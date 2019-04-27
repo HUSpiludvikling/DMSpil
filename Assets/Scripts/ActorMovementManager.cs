@@ -102,7 +102,7 @@ public class ActorMovementManager : MonoBehaviour
         {
             specUpEvent.Invoke();
         }
-        if (gc.grounded && Input.GetButtonDown(strings.jump))
+        if (HandleJump && gc.grounded && Input.GetButtonDown(strings.jump))
         {
             jumpEvent.Invoke();
             if(HandleJump)
