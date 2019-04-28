@@ -17,10 +17,14 @@ public class DoorToNextLevel : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
         ActorMovementManager amm = collision.GetComponent<ActorMovementManager>();
-        AMMs.Add(amm);
-
-        amm.specEvent.AddListener(LoadLevel);
+        if (amm != null) 
+        {
+            AMMs.Add(amm);
+            amm.specEvent.AddListener(LoadLevel);
+        }
+            
 
     }
 
