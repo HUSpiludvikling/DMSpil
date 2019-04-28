@@ -1051,7 +1051,7 @@ PrefabInstance:
     - target: {fileID: 2485545967391426370, guid: a8cf13156122ea4449b29d627571bfa7,
         type: 3}
       propertyPath: load
-      value: Win
+      value: Level
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8cf13156122ea4449b29d627571bfa7, type: 3}
@@ -5568,6 +5568,11 @@ PrefabInstance:
     - target: {fileID: 743271045, guid: cab061a3aba35e2429553a1a4460f754, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.12679361
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679637204254244275, guid: cab061a3aba35e2429553a1a4460f754,
+        type: 3}
+      propertyPath: player
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab061a3aba35e2429553a1a4460f754, type: 3}
