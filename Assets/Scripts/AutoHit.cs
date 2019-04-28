@@ -5,8 +5,10 @@ using UnityEngine;
 public class AutoHit : MonoBehaviour
 {
     // Start is called before the first frame update
+    private Animator Anim;
     void Start()
     {
+        Anim = GetComponentInChildren<Animator>();
         StartCoroutine(HitOnTiming(0.5f));
     }
 
@@ -26,7 +28,7 @@ public class AutoHit : MonoBehaviour
             {
                 if (item.transform.CompareTag("Wheelie") || item.transform.CompareTag("Leggie") || item.transform.CompareTag("Angstie"))
                 {
-                    
+                    Anim.SetBool("4", true);
                     item.transform.GetComponent<PlayerHealth>().TakeDamage();
                     break;
                 }
