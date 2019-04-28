@@ -10,6 +10,7 @@ public class runLine : MonoBehaviour
     void Start()
     {
         lr = GetComponent<LineRenderer>();
+        lr.sortingLayerName = "Foreground";
         location = GetComponentInParent<TeleportToPosition>().location;
     }
 
