@@ -15,6 +15,8 @@ public class LeggieSpecialJump : MonoBehaviour
 
     Rigidbody2D rb2d;
 
+    bool flipped = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,29 +35,38 @@ public class LeggieSpecialJump : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(left.walled + " " + right.walled);
-        if (gc.grounded && Input.GetButtonDown(aStrings.jump))
+        if (GetComponent<ActorMovementManager>().horizontal != 0)
         {
-            GetComponent<ActorMovementManager>().jumpEvent.Invoke();
-            rb2d.AddForce(Vector2.up * GetComponent<ActorMovementManager>().JumpMod, ForceMode2D.Impulse);
-
+            flipped = GetComponent<ActorMovementManager>().horizontal != 1;
         }
-        else if (left.walled && Input.GetButtonDown(aStrings.jump))
+
+        Debug.Log(left.walled + " " + right.walled);
+        if(Input.GetButtonDown(aStrings.jump))
         {
-          //  Debug.Log("LeftWall");
-            StartCoroutine(disableHorizontal(1f));
-            rb2d.velocity = Vector2.right + Vector2.up;
-            rb2d.AddForce(Vector2.right * 2 + Vector2.up * GetComponent<ActorMovementManager>().JumpMod, ForceMode2D.Impulse);
+            if (gc.grounded)
+            {
+                GetComponent<ActorMovementManager>().jumpEvent.Invoke();
+                rb2d.AddForce(Vector2.up * GetComponent<ActorMovementManager>().JumpMod, ForceMode2D.Impulse);
 
-        }
-        else if(right.walled && Input.GetButtonDown(aStrings.jump))
-        {
-           // Debug.Log("RightWall");
-            StartCoroutine(disableHorizontal(1f));
-            rb2d.velocity = Vector2.left + Vector2.up;
-            rb2d.AddForce(Vector2.left *2 + Vector2.up * GetComponent<ActorMovementManager>().JumpMod, ForceMode2D.Impulse);
+            }
+            else if (left.walled || (right.walled && flipped))
+            {
+                //  Debug.Log("LeftWall");
+                StartCoroutine(disableHorizontal(1f));
+                rb2d.velocity = Vector2.right + Vector2.up;
+                rb2d.AddForce(Vector2.right * 2 + Vector2.up * GetComponent<ActorMovementManager>().JumpMod, ForceMode2D.Impulse);
 
+            }
+            else if (right.walled || (left.walled && flipped))
+            {
+                // Debug.Log("RightWall");
+                StartCoroutine(disableHorizontal(1f));
+                rb2d.velocity = Vector2.left + Vector2.up;
+                rb2d.AddForce(Vector2.left * 2 + Vector2.up * GetComponent<ActorMovementManager>().JumpMod, ForceMode2D.Impulse);
+
+            }
         }
+        
         
     }
 

@@ -391,10 +391,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5506060458809229281, guid: bb569c73ac4cede4f88273a251e21dcd,
-        type: 3}
-      propertyPath: player
-      value: 2
+    - target: {fileID: 2031107683, guid: bb569c73ac4cede4f88273a251e21dcd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.041632507
+      objectReference: {fileID: 0}
+    - target: {fileID: 2145192599, guid: bb569c73ac4cede4f88273a251e21dcd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.017097948
+      objectReference: {fileID: 0}
+    - target: {fileID: 2145192599, guid: bb569c73ac4cede4f88273a251e21dcd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9998539
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb569c73ac4cede4f88273a251e21dcd, type: 3}
@@ -695,12 +702,12 @@ PrefabInstance:
     - target: {fileID: 8899725611754665201, guid: 74f70cd06ed7cd2498c2ecbf73025360,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -3.87
       objectReference: {fileID: 0}
     - target: {fileID: 8899725611754665201, guid: 74f70cd06ed7cd2498c2ecbf73025360,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -2.76
       objectReference: {fileID: 0}
     - target: {fileID: 8899725611754665201, guid: 74f70cd06ed7cd2498c2ecbf73025360,
         type: 3}
@@ -987,12 +994,12 @@ PrefabInstance:
     - target: {fileID: 8679637204254244285, guid: cab061a3aba35e2429553a1a4460f754,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.64
+      value: -2.89
       objectReference: {fileID: 0}
     - target: {fileID: 8679637204254244285, guid: cab061a3aba35e2429553a1a4460f754,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.89
+      value: 0.31
       objectReference: {fileID: 0}
     - target: {fileID: 8679637204254244285, guid: cab061a3aba35e2429553a1a4460f754,
         type: 3}

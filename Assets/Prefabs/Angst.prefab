@@ -1,17 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &8435961289377867145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8679637204254244287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17b3a92b238fe1845959fa76c5c10060, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4069938874428486887
 GameObject:
   m_ObjectHideFlags: 0
@@ -56,6 +44,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hookGO: {fileID: 2974104000726688429, guid: cacfc3f43dfd7fe4f8706bfe9096ac3e, type: 3}
+--- !u!114 &8435961289377867145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8679637204254244287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b3a92b238fe1845959fa76c5c10060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &737483440456199860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73,15 +73,25 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Angstie
       objectReference: {fileID: 0}
+    - target: {fileID: 8234925672729498375, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
+        type: 3}
+      propertyPath: player
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234925672729498375, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
+        type: 3}
+      propertyPath: JumpMod
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8234925672729498377, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.291718
+      value: -2.89
       objectReference: {fileID: 0}
     - target: {fileID: 8234925672729498377, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.6536007
+      value: 0.31
       objectReference: {fileID: 0}
     - target: {fileID: 8234925672729498377, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
         type: 3}
@@ -128,15 +138,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1974867989193006093, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8234925672304471706, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.315
-      objectReference: {fileID: 0}
-    - target: {fileID: 8234925672729498375, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
-        type: 3}
-      propertyPath: player
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8234925672729498373, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd,
         type: 3}
@@ -158,8 +168,7 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 1.4411805
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8234925672729498372, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 886d1d08e89d5264ca4c1ca7ae6c28bd, type: 3}
 --- !u!1 &8679637204254244287 stripped
 GameObject:
@@ -180,10 +189,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8679637204254244285}
     m_Modifications:
-    - target: {fileID: 100000, guid: 77e577c87903fdc43881e03bc497b15e, type: 3}
-      propertyPath: m_Name
-      value: AngstPlayer
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 77e577c87903fdc43881e03bc497b15e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.742
@@ -227,6 +232,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 77e577c87903fdc43881e03bc497b15e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 77e577c87903fdc43881e03bc497b15e, type: 3}
+      propertyPath: m_Name
+      value: AngstPlayer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e577c87903fdc43881e03bc497b15e, type: 3}
