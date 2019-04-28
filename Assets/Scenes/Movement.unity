@@ -336,11 +336,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheelie
       objectReference: {fileID: 0}
-    - target: {fileID: 5506060458809229293, guid: bb569c73ac4cede4f88273a251e21dcd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5506060458809229295, guid: bb569c73ac4cede4f88273a251e21dcd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -761,11 +756,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
-    - target: {fileID: 3166393600201439515, guid: dac5b92fb1f78074b98dc0714cc24ad4,
-        type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
     - target: {fileID: 3166393600201439517, guid: dac5b92fb1f78074b98dc0714cc24ad4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -823,24 +813,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dac5b92fb1f78074b98dc0714cc24ad4, type: 3}
---- !u!1 &3166393599156860618 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3166393600201439515, guid: dac5b92fb1f78074b98dc0714cc24ad4,
-    type: 3}
-  m_PrefabInstance: {fileID: 3166393599156860617}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3166393599156860619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3166393599156860618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1370013e06e2aee49886e10019a819c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &5371290028882914467
 PrefabInstance:
   m_ObjectHideFlags: 0

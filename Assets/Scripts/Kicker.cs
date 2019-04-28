@@ -13,12 +13,15 @@ public class Kicker : MonoBehaviour
 
     private void Kick()
     {
+        
         RaycastHit2D[] inFront = Physics2D.RaycastAll(transform.parent.position, transform.position, 2f);
         foreach (var item in inFront)
         {
             if(item.transform.CompareTag("Enemy"))
             {
                 item.transform.GetComponent<Health>().TakeDamage(damage);
+                
+                break;
             }
         }
     }
