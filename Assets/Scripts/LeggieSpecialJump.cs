@@ -32,6 +32,11 @@ public class LeggieSpecialJump : MonoBehaviour
         aStrings = GetComponent<ActorMovementManager>().strings;
     }
 
+    public bool TouchingAnyWall()
+    {
+        return wcs.Any(x => x.walled);
+    }
+
     // Update is called once per frame
     void Update()
     {

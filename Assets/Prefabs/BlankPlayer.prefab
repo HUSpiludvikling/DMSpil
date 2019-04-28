@@ -582,6 +582,11 @@ MonoBehaviour:
   HandleJump: 1
   SpeedMod: 2.65
   JumpMod: 5
+  actiEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!50 &8234925672729498374
 Rigidbody2D:
   serializedVersion: 4
