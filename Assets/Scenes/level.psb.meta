@@ -1,0 +1,943 @@
+fileFormatVersion: 2
+guid: 8b5f60584028b754b8f580cf7718d380
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: long_GO/long_GO
+    100002: long_GO/long_GO/Gruppe 1 kopier 5
+    100004: long_GO/long_GO/Lag 1
+    100006: long_GO/long_GO/Lag 1 kopier
+    100008: long_GO/long_GO/Lag 1 kopier 2
+    100010: long_GO/long_GO/Lag 1 kopier 3
+    100012: long_GO/long_GO/Lag 1 kopier 4
+    100014: long_GO/long_GO/Lag 1 kopier 5
+    100016: long_GO/long_GO/Lag 1 kopier 6
+    100018: long_GO/long_GO/Lag 1 kopier 7
+    100020: long_GO/long_GO/Lag 1 kopier 8
+    100022: long_GO/long_GO/Lag 1 kopier 9
+    100024: long_GO/long_GO/Lag 1 kopier 10
+    100026: long_GO/long_GO/Lag 1 kopier 11
+    100028: long_GO/long_GO/Lag 1 kopier 12
+    100030: long_GO/long_GO/Lag 1 kopier 13
+    100032: long_GO/long_GO/Lag 1 kopier 14
+    100034: long_GO/long_GO/Lag 1 kopier 15
+    100036: long_GO/long_GO/Lag 1 kopier 16
+    100038: long_GO/long_GO/Lag 1 kopier 17
+    100040: long_GO/long_GO/Lag 1 kopier 18
+    100042: long_GO/long_GO/Lag 1 kopier 19
+    100044: long_GO/long_GO/Lag 1 kopier 20
+    100046: long_GO/long_GO/Lag 1 kopier 21
+    100048: long_GO/long_GO/long
+    100050: long_GO/long_GO/long kopier 2
+    100052: long_GO/long_GO/long kopier 3
+    400000: long_GO/long_GO/Transform
+    400002: long_GO/long_GO/Gruppe 1 kopier 5/Transform
+    400004: long_GO/long_GO/Lag 1/Transform
+    400006: long_GO/long_GO/Lag 1 kopier/Transform
+    400008: long_GO/long_GO/Lag 1 kopier 2/Transform
+    400010: long_GO/long_GO/Lag 1 kopier 3/Transform
+    400012: long_GO/long_GO/Lag 1 kopier 4/Transform
+    400014: long_GO/long_GO/Lag 1 kopier 5/Transform
+    400016: long_GO/long_GO/Lag 1 kopier 6/Transform
+    400018: long_GO/long_GO/Lag 1 kopier 7/Transform
+    400020: long_GO/long_GO/Lag 1 kopier 8/Transform
+    400022: long_GO/long_GO/Lag 1 kopier 9/Transform
+    400024: long_GO/long_GO/Lag 1 kopier 10/Transform
+    400026: long_GO/long_GO/Lag 1 kopier 11/Transform
+    400028: long_GO/long_GO/Lag 1 kopier 12/Transform
+    400030: long_GO/long_GO/Lag 1 kopier 13/Transform
+    400032: long_GO/long_GO/Lag 1 kopier 14/Transform
+    400034: long_GO/long_GO/Lag 1 kopier 15/Transform
+    400036: long_GO/long_GO/Lag 1 kopier 16/Transform
+    400038: long_GO/long_GO/Lag 1 kopier 17/Transform
+    400040: long_GO/long_GO/Lag 1 kopier 18/Transform
+    400042: long_GO/long_GO/Lag 1 kopier 19/Transform
+    400044: long_GO/long_GO/Lag 1 kopier 20/Transform
+    400046: long_GO/long_GO/Lag 1 kopier 21/Transform
+    400048: long_GO/long_GO/long/Transform
+    400050: long_GO/long_GO/long kopier 2/Transform
+    400052: long_GO/long_GO/long kopier 3/Transform
+    2800000: level
+    21200000: long_GO/long_GO/Gruppe 1 kopier 5/SpriteRenderer
+    21200002: long_GO/long_GO/Lag 1/SpriteRenderer
+    21200004: long_GO/long_GO/Lag 1 kopier/SpriteRenderer
+    21200006: long_GO/long_GO/Lag 1 kopier 2/SpriteRenderer
+    21200008: long_GO/long_GO/Lag 1 kopier 3/SpriteRenderer
+    21200010: long_GO/long_GO/Lag 1 kopier 4/SpriteRenderer
+    21200012: long_GO/long_GO/Lag 1 kopier 5/SpriteRenderer
+    21200014: long_GO/long_GO/Lag 1 kopier 6/SpriteRenderer
+    21200016: long_GO/long_GO/Lag 1 kopier 7/SpriteRenderer
+    21200018: long_GO/long_GO/Lag 1 kopier 8/SpriteRenderer
+    21200020: long_GO/long_GO/Lag 1 kopier 9/SpriteRenderer
+    21200022: long_GO/long_GO/Lag 1 kopier 10/SpriteRenderer
+    21200024: long_GO/long_GO/Lag 1 kopier 11/SpriteRenderer
+    21200026: long_GO/long_GO/Lag 1 kopier 12/SpriteRenderer
+    21200028: long_GO/long_GO/Lag 1 kopier 13/SpriteRenderer
+    21200030: long_GO/long_GO/Lag 1 kopier 14/SpriteRenderer
+    21200032: long_GO/long_GO/Lag 1 kopier 15/SpriteRenderer
+    21200034: long_GO/long_GO/Lag 1 kopier 16/SpriteRenderer
+    21200036: long_GO/long_GO/Lag 1 kopier 17/SpriteRenderer
+    21200038: long_GO/long_GO/Lag 1 kopier 18/SpriteRenderer
+    21200040: long_GO/long_GO/Lag 1 kopier 19/SpriteRenderer
+    21200042: long_GO/long_GO/Lag 1 kopier 20/SpriteRenderer
+    21200044: long_GO/long_GO/Lag 1 kopier 21/SpriteRenderer
+    21200046: long_GO/long_GO/long/SpriteRenderer
+    21200048: long_GO/long_GO/long kopier 2/SpriteRenderer
+    21200050: long_GO/long_GO/long kopier 3/SpriteRenderer
+    21300000: Lag 1 kopier 16
+    21300002: Lag 1 kopier
+    21300004: Lag 1 kopier 7
+    21300006: Lag 1 kopier 2
+    21300008: Lag 1 kopier 15
+    21300010: Lag 1
+    21300012: long kopier 3
+    21300014: Lag 1 kopier 6
+    21300016: long kopier 2
+    21300018: Lag 1 kopier 13
+    21300020: Lag 1 kopier 12
+    21300022: Lag 1 kopier 11
+    21300024: Lag 1 kopier 10
+    21300026: Lag 1 kopier 20
+    21300028: Lag 1 kopier 21
+    21300030: Lag 1 kopier 19
+    21300032: Lag 1 kopier 18
+    21300034: Lag 1 kopier 17
+    21300036: Lag 1 kopier 9
+    21300038: Lag 1 kopier 14
+    21300040: Lag 1 kopier 8
+    21300042: Lag 1 kopier 5
+    21300044: Lag 1 kopier 4
+    21300046: Gruppe 1 kopier 5
+    21300048: Lag 1 kopier 3
+    21300050: long
+    100100000: long_GO
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 32
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Lag 1 kopier 16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1294
+      width: 1345
+      height: 840
+    spriteID: 86a4d05505786c3448ee1eb7534b8289
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1294}
+  - name: Lag 1 kopier
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1357
+      y: 2020
+      width: 64
+      height: 64
+    spriteID: 0625c19d12be3db42919e4c338eb50a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1293, y: 1700}
+  - name: Lag 1 kopier 7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1429
+      y: 1752
+      width: 64
+      height: 64
+    spriteID: 51384df370d9cea4e892d8258566a7c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 277, y: 1124}
+  - name: Lag 1 kopier 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1429
+      y: 1824
+      width: 64
+      height: 64
+    spriteID: d05396d9e1e76c34dbac6f19ab261647
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 341, y: 1260}
+  - name: Lag 1 kopier 15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1429
+      y: 1896
+      width: 64
+      height: 64
+    spriteID: 22b6a6f027115b0408f8741239089f3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1333, y: 1086}
+  - name: Lag 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1429
+      y: 1968
+      width: 64
+      height: 64
+    spriteID: af76b52c828561e469c306de7e664adb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1429, y: 1648}
+  - name: long kopier 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1357
+      y: 1294
+      width: 64
+      height: 450
+    spriteID: 844bc2a30ba156d4fb93bf3056b4349f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 76, y: 462}
+  - name: Lag 1 kopier 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1501
+      y: 1294
+      width: 256
+      height: 64
+    spriteID: d170d29aad1547d4a94ae79a44da14f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 605, y: 794}
+  - name: long kopier 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1429
+      y: 1294
+      width: 64
+      height: 450
+    spriteID: fe98d15dbf1feab4eb06b37c072887d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1429, y: 462}
+  - name: Lag 1 kopier 13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1501
+      y: 1366
+      width: 256
+      height: 64
+    spriteID: 9d3a14f7381ae524ba797fc910d61d9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1214, y: 444}
+  - name: Lag 1 kopier 12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1501
+      y: 1438
+      width: 256
+      height: 64
+    spriteID: 8cf1c4a73fc05db4792e3345dc12f275
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 958, y: 516}
+  - name: Lag 1 kopier 11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1501
+      y: 1510
+      width: 256
+      height: 64
+    spriteID: 67be296d6ad2c814791e1388b80fd13e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 702, y: 588}
+  - name: Lag 1 kopier 10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1501
+      y: 1582
+      width: 256
+      height: 64
+    spriteID: 184dac183d0df4c4b8b889e6a8728e6f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1302, y: 890}
+  - name: Lag 1 kopier 20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1765
+      y: 1294
+      width: 256
+      height: 60
+    spriteID: 8d13758aa48d9bb4ca522e01b2e69b68
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 933, y: 72}
+  - name: Lag 1 kopier 21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1765
+      y: 1362
+      width: 256
+      height: 60
+    spriteID: c6063f8218c38cd4f8c5e9840523b626
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 676, y: 140}
+  - name: Lag 1 kopier 19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1765
+      y: 1430
+      width: 256
+      height: 60
+    spriteID: 233ea3cc3fcdc6143844188fd52d1de4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1189, y: 208}
+  - name: Lag 1 kopier 18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1765
+      y: 1498
+      width: 256
+      height: 60
+    spriteID: 772b3b252dfee11448de94b34910a129
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1445, y: 276}
+  - name: Lag 1 kopier 17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1765
+      y: 1566
+      width: 256
+      height: 60
+    spriteID: 177c477514ccc814c871acbc5d02d15d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1701, y: 344}
+  - name: Lag 1 kopier 9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1501
+      y: 1654
+      width: 256
+      height: 64
+    spriteID: 72f2f85483f68b544b2488d79ed18577
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1046, y: 962}
+  - name: Lag 1 kopier 14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1501
+      y: 1726
+      width: 256
+      height: 64
+    spriteID: 6f748f34f264715408fb021d8ab1790e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1430, y: 1034}
+  - name: Lag 1 kopier 8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1501
+      y: 1798
+      width: 256
+      height: 64
+    spriteID: 50069767a08991b4985d195f6a9db94c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 790, y: 1106}
+  - name: Lag 1 kopier 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1501
+      y: 1870
+      width: 256
+      height: 64
+    spriteID: fbeb89e79ece2e145ad8327f2d4d8b77
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 860, y: 1370}
+  - name: Lag 1 kopier 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1501
+      y: 1942
+      width: 256
+      height: 64
+    spriteID: 31e580c1f185ceb4384a4bd6b2fc992d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1278, y: 1474}
+  - name: Gruppe 1 kopier 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1345
+      height: 1282
+    spriteID: 917a444d900054e4b96ed510370877c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: Lag 1 kopier 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1501
+      y: 2014
+      width: 256
+      height: 64
+    spriteID: 7b5e1bad588b7ba499939443d0108e1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1116, y: 1694}
+  - name: long
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1357
+      y: 1752
+      width: 64
+      height: 260
+    spriteID: b0c837757981c8843bf85ab3b1db9ca3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1134, y: 1414}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 1345, y: 1282}
+  textureActualWidth: 2048
+  textureActualHeight: 4096
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Lag 1 kopier 16
+    spriteName: Lag 1 kopier 16
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 86a4d05505786c3448ee1eb7534b8289
+    layerID: 92
+    mosaicPosition: {x: 4, y: 1294}
+  - name: Lag 1 kopier
+    spriteName: Lag 1 kopier
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0625c19d12be3db42919e4c338eb50a4
+    layerID: 108
+    mosaicPosition: {x: 1357, y: 2020}
+  - name: Lag 1 kopier 7
+    spriteName: Lag 1 kopier 7
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 51384df370d9cea4e892d8258566a7c8
+    layerID: 120
+    mosaicPosition: {x: 1429, y: 1752}
+  - name: Lag 1 kopier 2
+    spriteName: Lag 1 kopier 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d05396d9e1e76c34dbac6f19ab261647
+    layerID: 119
+    mosaicPosition: {x: 1429, y: 1824}
+  - name: Lag 1 kopier 15
+    spriteName: Lag 1 kopier 15
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 22b6a6f027115b0408f8741239089f3d
+    layerID: 129
+    mosaicPosition: {x: 1429, y: 1896}
+  - name: Lag 1
+    spriteName: Lag 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: af76b52c828561e469c306de7e664adb
+    layerID: 4
+    mosaicPosition: {x: 1429, y: 1968}
+  - name: long kopier 3
+    spriteName: long kopier 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 844bc2a30ba156d4fb93bf3056b4349f
+    layerID: 117
+    mosaicPosition: {x: 1357, y: 1294}
+  - name: Lag 1 kopier 6
+    spriteName: Lag 1 kopier 6
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d170d29aad1547d4a94ae79a44da14f3
+    layerID: 118
+    mosaicPosition: {x: 1501, y: 1294}
+  - name: long kopier 2
+    spriteName: long kopier 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fe98d15dbf1feab4eb06b37c072887d8
+    layerID: 116
+    mosaicPosition: {x: 1429, y: 1294}
+  - name: Lag 1 kopier 13
+    spriteName: Lag 1 kopier 13
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9d3a14f7381ae524ba797fc910d61d9d
+    layerID: 127
+    mosaicPosition: {x: 1501, y: 1366}
+  - name: Lag 1 kopier 12
+    spriteName: Lag 1 kopier 12
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8cf1c4a73fc05db4792e3345dc12f275
+    layerID: 126
+    mosaicPosition: {x: 1501, y: 1438}
+  - name: Lag 1 kopier 11
+    spriteName: Lag 1 kopier 11
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 67be296d6ad2c814791e1388b80fd13e
+    layerID: 125
+    mosaicPosition: {x: 1501, y: 1510}
+  - name: Lag 1 kopier 10
+    spriteName: Lag 1 kopier 10
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 184dac183d0df4c4b8b889e6a8728e6f
+    layerID: 124
+    mosaicPosition: {x: 1501, y: 1582}
+  - name: Lag 1 kopier 20
+    spriteName: Lag 1 kopier 20
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8d13758aa48d9bb4ca522e01b2e69b68
+    layerID: 133
+    mosaicPosition: {x: 1765, y: 1294}
+  - name: Lag 1 kopier 21
+    spriteName: Lag 1 kopier 21
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c6063f8218c38cd4f8c5e9840523b626
+    layerID: 134
+    mosaicPosition: {x: 1765, y: 1362}
+  - name: Lag 1 kopier 19
+    spriteName: Lag 1 kopier 19
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 233ea3cc3fcdc6143844188fd52d1de4
+    layerID: 132
+    mosaicPosition: {x: 1765, y: 1430}
+  - name: Lag 1 kopier 18
+    spriteName: Lag 1 kopier 18
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 772b3b252dfee11448de94b34910a129
+    layerID: 131
+    mosaicPosition: {x: 1765, y: 1498}
+  - name: Lag 1 kopier 17
+    spriteName: Lag 1 kopier 17
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 177c477514ccc814c871acbc5d02d15d
+    layerID: 130
+    mosaicPosition: {x: 1765, y: 1566}
+  - name: Lag 1 kopier 9
+    spriteName: Lag 1 kopier 9
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 72f2f85483f68b544b2488d79ed18577
+    layerID: 123
+    mosaicPosition: {x: 1501, y: 1654}
+  - name: Lag 1 kopier 14
+    spriteName: Lag 1 kopier 14
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6f748f34f264715408fb021d8ab1790e
+    layerID: 128
+    mosaicPosition: {x: 1501, y: 1726}
+  - name: Lag 1 kopier 8
+    spriteName: Lag 1 kopier 8
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 50069767a08991b4985d195f6a9db94c
+    layerID: 122
+    mosaicPosition: {x: 1501, y: 1798}
+  - name: Lag 1 kopier 5
+    spriteName: Lag 1 kopier 5
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fbeb89e79ece2e145ad8327f2d4d8b77
+    layerID: 110
+    mosaicPosition: {x: 1501, y: 1870}
+  - name: Lag 1 kopier 4
+    spriteName: Lag 1 kopier 4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 31e580c1f185ceb4384a4bd6b2fc992d
+    layerID: 109
+    mosaicPosition: {x: 1501, y: 1942}
+  - name: Gruppe 1 kopier 5
+    spriteName: Gruppe 1 kopier 5
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 917a444d900054e4b96ed510370877c0
+    layerID: 112
+    mosaicPosition: {x: 4, y: 4}
+  - name: Lag 1 kopier 3
+    spriteName: Lag 1 kopier 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7b5e1bad588b7ba499939443d0108e1e
+    layerID: 107
+    mosaicPosition: {x: 1501, y: 2014}
+  - name: long
+    spriteName: long
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b0c837757981c8843bf85ab3b1db9ca3
+    layerID: 101
+    mosaicPosition: {x: 1357, y: 1752}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+  boneGOs: []
+  generateGOHierarchy: 0
