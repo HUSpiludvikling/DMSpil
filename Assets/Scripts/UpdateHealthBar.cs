@@ -33,7 +33,6 @@ public class UpdateHealthBar : MonoBehaviour
             parentRend.enabled = true;
             renderer.enabled = true;
         }
-        Debug.Log(data);
 
         renderer.transform.localScale = new Vector3(Mathf.Min(data / 100f, 0.9f), 0.7f, 0.9f);
     }

@@ -15,6 +15,9 @@ public struct ActorStrings
 {
     public string jump;
     public string spec;
+
+    public string acti;
+
     public string hori;
     public string vert;
 
@@ -36,6 +39,7 @@ public struct ActorStrings
 
         jump = "JumpJ" + add;
         spec = "SpecJ" + add;
+        acti = "ActiJ" + add;
         hori = "HorizontalJ" + add;
         vert = "VerticalJ" + add;
     }
@@ -70,6 +74,8 @@ public class ActorMovementManager : MonoBehaviour
 
     internal UnityEvent specUpEvent;
 
+    public UnityEvent actiEvent;
+
     internal float horizontal;
     internal float vertical;
 
@@ -80,6 +86,7 @@ public class ActorMovementManager : MonoBehaviour
         jumpEvent = new UnityEvent();
         specEvent = new UnityEvent();
         specUpEvent = new UnityEvent();
+        actiEvent = new UnityEvent();
         strings = new ActorStrings(player);
     }
 
@@ -89,7 +96,6 @@ public class ActorMovementManager : MonoBehaviour
         
         rb2d = GetComponent<Rigidbody2D>();
         gc = GetComponentInChildren<GroundCheck>();
-        
     }
 
     // Update is called once per frame
@@ -103,6 +109,12 @@ public class ActorMovementManager : MonoBehaviour
         {
             specUpEvent.Invoke();
         }
+
+        if(Input.GetButtonDown(strings.acti))
+        {
+            actiEvent.Invoke();
+        }
+
         if (HandleJump && gc.grounded && Input.GetButtonDown(strings.jump))
         {
             jumpEvent.Invoke();

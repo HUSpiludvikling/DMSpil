@@ -20,7 +20,7 @@ public class WheelchairWallDestory : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         
-        Debug.Log("CollisionEnter");
+        //Debug.Log("CollisionEnter");
         if (col.gameObject.CompareTag("Wheelie"))
         {
             if(col.transform.parent.GetComponent<WheelieSpec>().turboMode)

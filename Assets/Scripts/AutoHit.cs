@@ -24,7 +24,6 @@ public class AutoHit : MonoBehaviour
 
             foreach (var item in all)
             {
-                Debug.Log(item.transform.tag);
                 if (item.transform.CompareTag("Wheelie") || item.transform.CompareTag("Leggie") || item.transform.CompareTag("Angstie"))
                 {
                     
