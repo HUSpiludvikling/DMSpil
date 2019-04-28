@@ -66,7 +66,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: b2b442645d98f9e4b883d200a726da36, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f88dfb899a73d9348b93b3613d6a3d41, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 5371290029265650906}
   - component: {fileID: 5371290029265650907}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: BackGroundOnCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

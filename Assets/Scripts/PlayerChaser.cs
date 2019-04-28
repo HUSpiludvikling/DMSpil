@@ -8,6 +8,7 @@ public class PlayerChaser : MonoBehaviour
     public List<GameObject> players;
     Rigidbody2D rb2d;
     GameObject target;
+    private Animator anim;
     private void Awake()
     {
         players = new List<GameObject>();
@@ -15,6 +16,7 @@ public class PlayerChaser : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponentInChildren<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
     }
 
@@ -31,11 +33,12 @@ public class PlayerChaser : MonoBehaviour
             {
                 target = players.OrderBy(x => Vector2.Distance(transform.position, x.transform.position)).First();
             }
-            
+            anim.SetBool("Run", true);
             rb2d.velocity = new Vector2(target.transform.position.x > transform.position.x ? 1 : -1, 0f);
         }
         else
         {
+            anim.SetBool("Run", false);
             rb2d.velocity = Vector2.zero;
         }
     }
