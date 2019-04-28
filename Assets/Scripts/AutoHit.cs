@@ -28,7 +28,7 @@ public class AutoHit : MonoBehaviour
             {
                 if (item.transform.CompareTag("Wheelie") || item.transform.CompareTag("Leggie") || item.transform.CompareTag("Angstie"))
                 {
-                    Anim.SetBool("4", true);
+                    //Anim.SetBool("4", true);
                     item.transform.GetComponent<PlayerHealth>().TakeDamage();
                     break;
                 }
